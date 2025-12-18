@@ -41,6 +41,7 @@ th {
 .left {
   width: 150px;
   background-color: #d3d3d3;
+  text-align: center;
 }
 
 footer {
@@ -62,6 +63,7 @@ footer {
     width: 150px;
     background-color: #d3d3d3;
     font-weight: bold;
+    text-align: center;
 }
 .p-center{
     text-align: center;
@@ -71,4 +73,16 @@ footer {
     color: black;
     background-color: #d3d3d3;
     font-weight: bold;
+    text-align: center ;
+}
+.right{
+    text-align: right;
+    width: 150px;
+    background-color: #d3d3d3;
+}
+.taskse{
+    color: black;
+    background-color: #d3d3d3;
+    font-weight: bold;
+    text-align: center ;
 }
