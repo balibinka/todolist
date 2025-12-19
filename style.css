@@ -79,10 +79,35 @@ footer {
     text-align: right;
     width: 150px;
     background-color: #d3d3d3;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-bottom: 25px;
 }
 .taskse{
     color: black;
     background-color: #d3d3d3;
     font-weight: bold;
-    text-align: center ;
+    text-align: center;
+}
+.completed {
+  text-decoration: line-through;
+  background-color: #d4edda;
+}
+button{
+  border: none;
+  outline: none;
+  padding: 8px 8px;
+  background: #240038;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 40px;
+} 
+.task-item {
+  margin: 5px 0;
+  padding: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
 }
